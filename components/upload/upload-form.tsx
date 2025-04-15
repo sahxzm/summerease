@@ -32,7 +32,7 @@ export default function UploadForm() {
         </div>
       );
     },
-    onUploadBegin: ({ file }) => {
+    onUploadBegin: (file: string) => {
       console.log("upload has begun for", file);
     },
   });
