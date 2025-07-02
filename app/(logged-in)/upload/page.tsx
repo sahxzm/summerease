@@ -1,5 +1,5 @@
 import BgGradient from "@/components/common/bg-gradient";
-import UploadForm from "@/components/upload/upload-form";
+import { UploadForm } from "@/components/upload/upload-form";
 import UploadHeader from "@/components/upload/upload-header";
 
 export default function Page() {

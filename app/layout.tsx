@@ -2,7 +2,9 @@ import Footer from "@/components/common/footer";
 import Header from "@/components/common/header";
 import { ThemeProvider } from "@/components/theme/theme-provider";
 import { ThemeToggle } from "@/components/theme/theme-toggle";
-import { ClerkProvider } from "@clerk/nextjs";
+import {
+  ClerkProvider
+} from '@clerk/nextjs';
 import type { Metadata } from "next";
 import { Source_Sans_3 as FontSans } from "next/font/google";
 import { Toaster } from "react-hot-toast";

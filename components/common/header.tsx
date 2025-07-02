@@ -11,25 +11,20 @@ export default function Header() {
           <span className="text-xl lg:text-xl font-extrabold">SummerEase</span>
         </NavLink>
       </div>
-
       <div className="flex lg:justify-center gap-4 lg:gap-12 lg:items-center">
         <NavLink href="/#pricing">Pricing</NavLink>
         <SignedIn>
           <NavLink href="/dashboard">My Summer-Ease(summery)</NavLink>
         </SignedIn>
       </div>
-
       <div className="flex justify-end lg:flex-1">
         <SignedIn>
           <div className="flex gap-2 items-center">
             <NavLink href="/upload">Upload a PDF</NavLink>
-            <div>ProMember</div>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
+            <NavLink href="/pro" className="bg-yellow-400 text-black px-3 py-1 rounded font-semibold hover:bg-yellow-500 transition">Pro Member</NavLink>
+            <UserButton />
           </div>
         </SignedIn>
-
         <SignedOut>
           <NavLink href="/sign-in">SignIn</NavLink>
         </SignedOut>
