@@ -1,3 +1,4 @@
-import { OurFileRouter } from "@/api/uploadthing/core";
 import { generateReactHelpers } from "@uploadthing/react";
-export const {useUploadThing} = generateReactHelpers<OurFileRouter>();
+import { OurFileRouter } from "../app/api/uploadthing/core";
+
+export const { useUploadThing } = generateReactHelpers<OurFileRouter>();
